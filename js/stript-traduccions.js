@@ -63,11 +63,11 @@ async function changeLanguage(lang) {
       const form = document.getElementById("WebToLeadForm");
         if (form) {
             const redirectMap = {
-                'cat': 'https://stopgas.gatxan.in/gracies'
+                'cat': 'https://stopgaspebre.cat/gracies'
             };
 
             const redirectKoMap = {
-                'cat': 'https://stopgas.gatxan.in/error'
+                'cat': 'https://stopgaspebre.cat/error'
             };
 
             if (redirectMap[lang]) {
