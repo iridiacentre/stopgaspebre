@@ -605,7 +605,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Listener per quan Cloudflare Turnstile generi un token
   window.onloadTurnstileCallback = function() {
       turnstile.render('.cf-turnstile', {
-          sitekey: "0x4AAAAAABgvZbG5L-aBdqvF",
+          sitekey: "0x4AAAAAACNej0ZMffO0bFqB",
           callback: function(token) {
               if (token) {
                   turnstileTokenInput.value = token; 
