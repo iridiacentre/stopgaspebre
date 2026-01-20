@@ -82,10 +82,10 @@ async function changeLanguage(lang) {
         const encodedTwitter = encodeURIComponent(dict.share_twitter);
 
         document.getElementById("share-whatsapp")?.setAttribute("href", `https://wa.me/?text=${encodedGeneral}`);
-        document.getElementById("share-telegram")?.setAttribute("href", `https://t.me/share/url?url=https://justiciaantifranquista.org/&text=${encodedGeneral}`);
+        document.getElementById("share-telegram")?.setAttribute("href", `https://t.me/share/url?url=https://stopgaspebre.cat/&text=${encodedGeneral}`);
         document.getElementById("share-twitter")?.setAttribute("href", `https://twitter.com/intent/tweet?text=${encodedTwitter}`);
-        document.getElementById("share-facebook")?.setAttribute("href", `https://www.facebook.com/sharer/sharer.php?u=https://justiciaantifranquista.org/&quote=${encodedGeneral}`);
-        document.getElementById("share-linkedin")?.setAttribute("href", `https://www.linkedin.com/sharing/share-offsite/?url=https://justiciaantifranquista.org`);
+        document.getElementById("share-facebook")?.setAttribute("href", `https://www.facebook.com/sharer/sharer.php?u=https://stopgaspebre.cat/&quote=${encodedGeneral}`);
+        document.getElementById("share-linkedin")?.setAttribute("href", `https://www.linkedin.com/sharing/share-offsite/?url=https://stopgaspebre.cat`);
     }
 
       window.addEventListener('DOMContentLoaded', () => {
